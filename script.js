@@ -1,8 +1,8 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiYm9zc2Jvc3NsZXUiLCJhIjoiY2trcHU5N2EyMGJwdDJvbnRvc2g2djNubSJ9.MH9jCElgj_r1kHN305ijZw';
 
 var bounds = [
-  [-74.56, 40.1], // southwest coordinates
-  [-73.39, 41.1] // northeast coordinates
+  [-74.6, 40.1], // southwest coordinates
+  [-73.3, 41.1] // northeast coordinates
 ];
 
 const map = new mapboxgl.Map({
@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/bossbossleu/ckoiwcrjy19b717o4avyd2e17', // style URL
   center: [-73.935, 40.745], // starting position [lng, lat]
   zoom: 10.2,
-  maxZoom: 14.1,
+  maxZoom: 14,
   minZoom: 10.2,
   maxBounds: bounds,
 });
